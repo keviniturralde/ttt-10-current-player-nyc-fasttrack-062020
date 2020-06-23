@@ -12,6 +12,6 @@ def current_player(board)
   if turns % 2 == 0
     retturn "X"
   else
-    returns "X"
+    returns "O"
   end
 end
