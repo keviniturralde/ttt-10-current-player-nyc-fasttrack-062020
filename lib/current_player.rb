@@ -4,8 +4,9 @@ def turn_count(board)
     if tile == "X" || tile == "O"
       turns += 1
     end
+  end
     return turns
-end
+
 end
 
 def current_player(board)
